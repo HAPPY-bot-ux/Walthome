@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+      <!-- primary meta tags -->
+      <title>Account</title>
+      <meta name="title" content="Wealthome">
+      <meta name="description" content="This is a realestate website developed by Happy Ndlovu">
+
+
+      <!-- favicon -->
+      <link rel="shortcut" href="./favicon.svg" type="image/svg+xml">
+
+
+      <!-- google font link -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+      <!-- google icon link-->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+
+      <!-- custom css link -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+
+      <!-- custom js link -->
+      <script src="./assets/js/script.js" defer></script>
+  
+
+
+    
+
+</head>
+<body>
+    
+  <!-- header -->
+  <header class="header" data-header>
+    <div class="container">
+
+     <a href="#" class="logo">
+           <img src="./assets/images/logo.png" width="190" height="28" alt="waelthome">
+     </a>
+
+
+        <nav class="navbar" data-navbar>
+
+                <ul class="navbar-list">
+
+                  <li>
+                    <a href="index.html" class="navbar-link label-medium" style="color: black;">Home</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="navbar-link label-medium" style="color: black;">Rent</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="navbar-link label-medium" style="color: black;">Sell</a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="navbar-link label-medium" style="color: black;">Buy</a>
+                  </li>
+
+                  <li>
+                    <a href="about.html" class="navbar-link label-medium" style="color: black;">About</a>
+                  </li>
+
+
+                </ul>
+
+
+                <div class="navbar-wrapper">
+                  <a href="account.html" class="btn-link label-medium" style="color: black;">Account</a>                
+              
+                  <a  href="#" class="btn btn-fill label-medium">Get Started</a>
+                </div>
+
+        </nav>
+
+        <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+            <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+
+            <span class="material-symbols-rounded close" aria-hidden="true">close</span>
+        </button>
+
+    </div>
+  </header>
+
+ <main>
+  <article>
+
+
+  <!-- Account form -->
+
+  <div class="account-page">
+    <div class="container" style="margin-top: 5rem ;background-image: url(assets/images/account\ page.jpg);">
+         <div class="row">
+
+            <div class="col-2">
+                <div class="form-container">
+                       <div class="form-btn">
+                        <span onclick="login()">Login</span>
+                        <span onclick="register()">Register</span>   
+
+                        <hr id="Indicator">
+                       </div>
+
+                       <form id="LoginForm">
+                        <input type="text" placeholder="Username" style="margin-left: 1.4rem;">
+                        <input type="password" placeholder="Password" style="margin-left: 1.4rem;">
+                        <a  href="#" class="btn btn-fill label-medium" style="margin-left: 6.4rem;">Get Started</a>
+                        <a href="#" style="margin-left: 3rem;">Forgot password</a>
+                       </form>
+
+                       <form id="RegForm" style="margin-bottom: 10rem;">
+                        <input type="text" placeholder="Username" style="margin-left: 1.4rem;">
+                        <input type="email" placeholder="Email" style="margin-left: 1.4rem;">
+                        <input type="password" placeholder="Password" style="margin-left: 1.4rem;">
+                        <a  href="#" class="btn btn-fill label-medium" style="margin-left: 6.5rem;">Get Started</a>
+                       </form>
+                </div>
+            </div>
+         </div>
+    </div>
+   </div>
+
+  
+    
+
+
+
+  </article>
+ </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+         <div class="footer-top">
+            <div class="container">
+
+
+            <div class="footer-brand">
+               <a href="#" class="logo">
+                <img src="./assets/images/logo.png"  width="190" height="28"  alt="welthome">
+               </a>
+
+
+               <p class="body-medium footer-text">
+                Lorem ipsum dolor sit amet consectetur. Non bibendum sit non congue pharetra pulvinar leo. Sed ut amet ipsum.
+               </p>
+            </div>
+
+       <nav class="footer-nav"  aria-labelledby="nav-label-1">
+          <p class="title-small footer-list-title"  id="nav-label-1">Quick link</p>
+
+          <ul class="footer-list">
+
+               <li>
+                  <a href="#" class="body-medium footer-link">Home</a>
+               </li>
+               
+               <li>
+                <a href="#" class="body-medium footer-link">Buy</a>
+             </li>
+
+             <li>
+              <a href="#" class="body-medium footer-link">Sell</a>
+           </li>
+
+           <li>
+            <a href="#" class="body-medium footer-link">Rent</a>
+         </li>
+          </ul>
+       </nav>
+
+
+       <nav class="footer-nav"  aria-labelledby="nav-label-2">
+        <p class="title-small footer-list-title"  id="nav-label-1">Support</p>
+
+        <ul class="footer-list">
+
+             <li>
+                <a href="#" class="body-medium footer-link">About us</a>
+             </li>
+             
+             <li>
+              <a href="#" class="body-medium footer-link">Contact us</a>
+           </li>
+
+           <li>
+            <a href="#" class="body-medium footer-link">Privacy Policy</a>
+         </li>
+
+         <li>
+          <a href="#" class="body-medium footer-link">Terms & Conditions</a>
+       </li>
+        </ul>
+     </nav>
+
+
+     <nav class="footer-nav"  aria-labelledby="nav-label-3">
+      <p class="title-small footer-list-title"  id="nav-label-1">Get in touch</p>
+
+      <ul class="footer-list">
+
+           <li>
+              <a href="#" class="body-medium footer-link">hello@wealthome.com</a>
+           </li>
+           
+           <li>
+            <address  href="#" class="address body-medium">4140 Parker Rd. Allentown, New Mexico 31134</address>
+         </li>
+
+         <li>
+      
+              <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <img src="./assets/images/facebook.svg" alt="facebook">
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <img src="./assets/images/twitter.svg" alt="twitter">
+                </a>
+              </li>
+
+
+              <li>
+                <a href="#" class="social-link">
+                  <img src="./assets/images/insta.svg" alt="instagram">
+                </a>
+              </li>
+
+                 </ul>
+    
+               </li>
+
+            </ul>
+      </nav>
+
+            </div>
+         </div>
+
+         <div class="footer-bottom">
+           <div class="container">
+
+
+           <p class="copyright body-medium" style="margin-left: 25rem;">
+              Copyrights Reserved || Created by Happy Ndlovu
+           </p>
+
+           </div>
+         </div>
+
+  </footer>
+
+  <script>
+
+    var LoginForm = document.getElementById("LoginForm");
+    var RegForm = document.getElementById("RegForm");
+    var Indicator = document.getElementById("Indicator");
+
+     function register(){
+
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(100px)";
+     }
+
+     function login(){
+
+       RegForm.style.transform = "translateX(300px)";
+       LoginForm.style.transform = "translateX(300px)";
+       Indicator.style.transform = "translateX(0px)";
+      }
+
+</script>
+
+</body>
+</html>
