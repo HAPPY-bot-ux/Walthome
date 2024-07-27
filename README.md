@@ -32,12 +32,10 @@ The Wealthome Real Estate Website is a project aimed at creating a seamless and 
 - **CSS3**: For styling and layout, including custom loading screens and grid layouts.
 - **JavaScript**: For adding interactivity and dynamic content.
 
-## Getting Started
+##Acknowledgements
 
-To get a local copy up and running, follow these steps:
-
-1. **Clone the repository**:
-   ```sh
+Special thanks to the senior developers and Software Engineers who provided invaluable advice and guidance throughout this project.
+Inspiration for this project came from various online resources and tutorials.
 
    ![Homepage Screenshot](C:\Users\admin\OneDrive\Pictures\Screenshots\House Agentcy webiste)
   
