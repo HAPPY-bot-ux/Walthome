@@ -37,5 +37,5 @@ The Wealthome Real Estate Website is a project aimed at creating a seamless and 
 Special thanks to the senior developers and Software Engineers who provided invaluable advice and guidance throughout this project.
 Inspiration for this project came from various online resources and tutorials.
 
-   ![Homepage Screenshot](Screenshot (169).png)
+   ![Homepage Screenshot](assets/Screenshot (169).png)
   
